@@ -2,8 +2,13 @@ body {
     font-family: "Varta", sans-serif;
 }
 
+header {
+    color: #2aa9b5;
+    text-align: center;
+}
+
 .newsItem {
-    width: 80%;
+    width: 70%;
     margin: 10px auto;
 
     border: solid 1px grey;
@@ -13,4 +18,13 @@ body {
 
 .newsItem:hover {
     box-shadow: 5px 5px lightgrey;
+}
+
+.newsItem a {
+    text-decoration: none;
+    color: #2aa9b5;
+}
+
+.newsItem a:hover {
+    color: #3ad9e8;
 }
