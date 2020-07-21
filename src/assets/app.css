@@ -43,6 +43,11 @@ input:focus {
     transition: 0.3s ease-in-out;
 }
 
+.newsItem h3 {
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
 .newsItem:hover {
     box-shadow: 5px 5px lightgrey;
 }
