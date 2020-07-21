@@ -1,9 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
+import NewsList from "./components/NewsList";
+import "./assets/app.css";
 
 const App = () => {
-    const [news, setNews] = useState([]);
-
-    return <div className="App"></div>;
+    return (
+        <>
+            <NewsList />
+        </>
+    );
 };
 
 export default App;

@@ -1,0 +1,16 @@
+body {
+    font-family: "Varta", sans-serif;
+}
+
+.newsItem {
+    width: 80%;
+    margin: 10px auto;
+
+    border: solid 1px grey;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.newsItem:hover {
+    box-shadow: 5px 5px lightgrey;
+}
