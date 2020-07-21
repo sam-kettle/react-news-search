@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Axios from "axios";
 import NewsItem from "./NewsItem";
+import NewsListTitle from "./NewsListTitle";
 
 const NewsList = (props) => {
     const [news, setNews] = useState([]);
@@ -26,7 +27,7 @@ const NewsList = (props) => {
 
     return (
         <div className="newsList">
-            <h2>Showing top headlines in UK</h2>
+            <NewsListTitle searchTerm={props.searchTerm} />
             {news.map((i) => (
                 <NewsItem title={i.title} url={i.url} />
             ))}
